@@ -4,9 +4,9 @@ var storage = null,
 		each;
 try {
   storage = window.localStorage;
-  Emitter = require('emitter');
-  clone = require('clone');
-  each = require('each');
+  Emitter = require('component-emitter');
+  clone = require('bredele-clone');
+  each = require('bredele-each');
 } catch(_) {
 	Emitter = require('component-emitter');
 	clone = require('clone-bredele');
